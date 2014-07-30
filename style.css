@@ -1,0 +1,245 @@
+/*   
+Theme Name: Socialize template
+Theme URI: http://www.jackgommeren.nl
+Description: Wordpress template ontwikkelt voor studentenvereniging Socialize
+Author: Jack Gommeren
+Author URI: http://www.jackgommeren.nl
+Version: 1.5
+Tags: socialize, studentenvereniging, wordpress
+.
+geen copyright op deze test
+ 
+.
+*/
+a{
+border:0px;
+}
+body{
+width: 100%;
+margin: 0px;
+padding: 0px;
+background-image:url('images/sidesfiller_tijdelijk3.jpg');
+background-repeat:repeat-x;
+background-color:#bbf668;
+}
+#content, #header, #footer, #content_footer{
+width:1000px;
+margin:auto;
+}
+#header{
+background-image:url('images/header_tijdelijk2.jpg');
+height:203px;
+}
+#content{
+min-height:500px;
+background-image:url('images/body_tijdelijk3.jpg');
+background-repeat:repeat-y;
+display: block;
+}
+
+#footer{
+height:100px;
+width:1000px;
+background-image:url('images/footer_tijdelijk3.jpg');
+}
+#logo_container{
+padding-left:5%;
+padding-top:1%;
+}
+.hoofdmenu{
+position:absolute;
+top:250px;
+}
+.posts_container{
+display:inline-block;
+margin-left:30%;
+margin-right:10%;
+padding-top:3%;
+padding-left:2%;
+}
+/* styling voor hoofdmenu */
+ul.menu
+{
+list-style-type: none;
+padding-left:0px;
+}
+ul.menu li a{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:18px;
+font-weight:bold;
+color:#ffffff;
+text-decoration:none;
+height:30px;
+display:inline-block;
+background-image:url('images/acht_menubut_middle_gold.png');
+background-repeat:repeat-x;
+background-position:left bottom; 
+vertical-align:baseline;
+}
+.menu_first_filler{
+width:100px;
+height:30px;
+display:inline-block;
+background-image:url('images/acht_menubut_middle_gold.png');
+background-repeat:repeat-x;
+background-position:left bottom; 
+vertical-align:middle;
+}
+.menu_last_filler{
+width:100px;
+height:30px;
+display:inline-block;
+background-image:url('images/acht_menubut_end_gold.png');
+background-repeat:no-repeat;
+background-position:left bottom; 
+vertical-align:middle;
+}
+
+/* styling voor pages algemeen */
+.post_div, .posts_container h1{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:18px;
+font-weight:bold;
+color:#ffffff;
+}
+.post_div, .posts_container p{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:12px;
+font-weight:normal;
+color:#ffffff;
+}
+
+/* Styling voor categories pages */
+#afzet{
+margin-left:10%;
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:10px;
+font-weight:normal;
+color:#ffffff;
+font-style:italic
+}
+.cat_h2{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:14px;
+font-weight:bold;
+color:#ffffff;
+}
+.cat_h3{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:14px;
+font-weight:bold;
+color:#ffffff;
+display:inline-block;
+}
+#afzet_h3{
+margin-left:10%;
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:10px;
+font-weight:normal;
+color:#ffffff;
+display:inline-block;
+margin:0px;
+margin-left:10px;
+}
+.cat_h4{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:14px;
+font-weight:bold;
+color:#ffffff;
+}
+#afzet_h4{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:10px;
+font-weight:normal;
+color:#ffffff;
+display:inline-block;
+margin:0px;
+margin-left:10px;
+}
+#afzet_h4 img{
+display:block;
+margin:5px;
+}
+
+/* Wordpress standaard fotoviewer/gallerij */
+.gallery-item{
+min-width:160px;
+}
+.imagecaption{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+font-size:10px;
+font-weight:normal;
+color:#ffffff;
+}
+#cboxTitle{
+float:none !important;
+display:block !important;
+background-color:#000000;
+color:#ffffff;
+text-align:center;
+font-size:12px;
+}
+.gallery-caption{
+font-family: Verdana, Arial, Tahoma, Helvetica, serif;
+float:none !important;
+display:block !important;
+background-color:#000000;
+color:#ffffff;
+text-align:center;
+font-size:10px;
+font-weight:normal;
+width:150px;/*ervanuitgaand dat de standaardinstelling van 150px width in Wordpress voor een thumbnail wordt aangehouden*/
+margin-left:auto !important;
+margin-right:auto !important;
+}
+#cboxCurrent{
+display:none !important;
+}
+#cboxNext{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+float:none !important;
+display:inline-block !important;
+background-color:#000000;
+color:#ffffff;
+font-weight:normal;
+text-align:center;
+font-size:12px;
+position:absolute;
+bottom:50%;
+right:-20%;
+width:60px;
+height:25px;
+padding-top:7px;
+}
+#cboxPrevious{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+float:none !important;
+display:inline-block !important;
+background-color:#000000;
+color:#ffffff;
+font-weight:normal;
+text-align:center;
+font-size:12px;
+position:absolute;
+bottom:50%;
+left:-20%;
+width:60px;
+height:25px;
+padding-top:7px;
+}
+#cboxClose{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+float:none !important;
+display:inline-block !important;
+background-color:#000000;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+position:absolute;
+top:-10%;
+right:0%;
+width:60px;
+height:25px;
+padding-top:5px;
+}
